@@ -1,0 +1,24 @@
+{
+  "name": "project1",
+  "version": "1.0.0",
+  "description": "Gloria Too website",
+  "main": "index.js",
+  "homepage": "https://github.com/mogobanyamwaro/Weekend_Gloria_project#readme",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mogobanyamwaro/Weekend_Gloria_project.git"
+  },
+  "author": "Douglas Mogoba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mogobanyamwaro/Weekend_Gloria_project/issues"
+  },
+  "dependencies": {
+    "gh-pages": "^3.1.0",
+    "node-sass": "^5.0.0"
+  }
+}
